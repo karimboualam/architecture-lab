@@ -1,5 +1,5 @@
 package com.architecturelab.layered.dto;
-
+/*
 import com.architecturelab.layered.model.Product;
 import org.springframework.stereotype.Component;
 
@@ -35,4 +35,4 @@ public class ProductMapperImpl implements ProductMapper {
                 .map(this::toDto)
                 .collect(Collectors.toList());
     }
-}
+}*/
