@@ -19,19 +19,43 @@ Il s’agit d’une évolution de l’architecture en couches (Layered Architect
 
 ## 📂 Structure du projet
 
-hexagonal-architecture
-├── src
-│ ├── main
-│ │ ├── java/com/architecturelab/hexagonal
-│ │ │ ├── application # Use cases
-│ │ │ ├── domain # Entités & Ports (interfaces)
-│ │ │ ├── infrastructure # Adapters (DB, API REST)
-│ │ │ └── App.java # Point d’entrée
-│ │ └── resources
-│ │ └── application.properties
-│ └── test
-│ └── java/com/architecturelab/hexagonal
-│ └── ... tests unitaires ...
+hexagonal-architecture/
+├── src/main/java/com/architecturelab/hexagonal
+│   ├── domain
+│   │   ├── model
+│   │   │   └── Product.java         # Entité métier
+│   │   ├── port
+│   │   │   ├── ProductRepositoryPort.java  # Port (interface)
+│   │   │   └── ProductServicePort.java     # Cas d'utilisation (interface)
+│   │   └── service
+│   │       └── ProductServiceImpl.java     # Implémentation du domaine
+│   │
+│   ├── application
+│   │   ├── dto
+│   │   │   └── ProductDTO.java
+│   │   ├── mapper
+│   │   │   └── ProductMapper.java   # MapStruct
+│   │   └── controller
+│   │       └── ProductController.java  # REST API (utilise le port)
+│   │
+│   ├── infrastructure
+│   │   ├── repository
+│   │   │   └── ProductJpaRepository.java  # Adaptateur Spring Data
+│   │   ├── entity
+│   │   │   └── ProductEntity.java        # Entité DB
+│   │   └── config
+│   │       └── PersistenceConfig.java
+│   │
+│   └── App.java
+│
+├── src/test/java/com/architecturelab/hexagonal
+│   ├── domain
+│   │   └── ProductServiceTest.java
+│   └── application
+│       └── ProductControllerTest.java
+│
+├── pom.xml
+└── README.md
 
 
 ---
