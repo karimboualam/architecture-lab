@@ -71,6 +71,12 @@
           <scope>runtime</scope>
       </dependency>
 
+    <!-- SPRING BATCH -->
+
+    <dependency>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-starter-batch</artifactId>
+    </dependency>
 
 
     <!-- Lombok (facilite getters/setters/constructeurs) -->

@@ -1,0 +1,16 @@
+C:\Users\KARIM\Downloads\test\Archite\hexagonal-architecture\src\main\java\com\architecturelab\hexagonal\infrastructure\exception\GlobalExceptionHandler.java
+C:\Users\KARIM\Downloads\test\Archite\hexagonal-architecture\src\main\java\com\architecturelab\hexagonal\App.java
+C:\Users\KARIM\Downloads\test\Archite\hexagonal-architecture\src\main\java\com\architecturelab\hexagonal\domain\exception\ProductNotFoundException.java
+C:\Users\KARIM\Downloads\test\Archite\hexagonal-architecture\src\main\java\com\architecturelab\hexagonal\infrastructure\repository\ProductJpaRepository.java
+C:\Users\KARIM\Downloads\test\Archite\hexagonal-architecture\src\main\java\com\architecturelab\hexagonal\infrastructure\entity\ProductEntity.java
+C:\Users\KARIM\Downloads\test\Archite\hexagonal-architecture\src\main\java\com\architecturelab\hexagonal\infrastructure\config\PersistenceConfig.java
+C:\Users\KARIM\Downloads\test\Archite\hexagonal-architecture\src\main\java\com\architecturelab\hexagonal\domain\service\ProductServiceImpl.java
+C:\Users\KARIM\Downloads\test\Archite\hexagonal-architecture\src\main\java\com\architecturelab\hexagonal\application\controller\ProductController.java
+C:\Users\KARIM\Downloads\test\Archite\hexagonal-architecture\src\main\java\com\architecturelab\hexagonal\domain\port\ProductRepositoryPort.java
+C:\Users\KARIM\Downloads\test\Archite\hexagonal-architecture\src\main\java\com\architecturelab\hexagonal\domain\model\Product.java
+C:\Users\KARIM\Downloads\test\Archite\hexagonal-architecture\src\main\java\com\architecturelab\hexagonal\domain\port\ProductServicePort.java
+C:\Users\KARIM\Downloads\test\Archite\hexagonal-architecture\src\main\java\com\architecturelab\hexagonal\infrastructure\controller\HealthCheckController.java
+C:\Users\KARIM\Downloads\test\Archite\hexagonal-architecture\src\main\java\com\architecturelab\hexagonal\infrastructure\repository\ProductRepositoryAdapter.java
+C:\Users\KARIM\Downloads\test\Archite\hexagonal-architecture\src\main\java\com\architecturelab\hexagonal\application\dto\ProductDTO.java
+C:\Users\KARIM\Downloads\test\Archite\hexagonal-architecture\src\main\java\com\architecturelab\hexagonal\application\service\ProductApplicationService.java
+C:\Users\KARIM\Downloads\test\Archite\hexagonal-architecture\src\main\java\com\architecturelab\hexagonal\application\mapper\ProductMapper.java
