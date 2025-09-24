@@ -11,4 +11,7 @@ public interface ProductServicePort {
   Product create(Product product);
   Product update(Long id, Product product);
   void delete(Long id);
+
+  // Ajout
+  //List<Product> saveAll(List<Product> products);
 }

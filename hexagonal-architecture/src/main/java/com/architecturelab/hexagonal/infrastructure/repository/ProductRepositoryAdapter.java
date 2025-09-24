@@ -53,4 +53,18 @@ public List<Product> findAll() {
     e.setPrice(p.getPrice());
     return e;
   }
+
+
+  @Override
+  public List<Product> saveAll(List<Product> products) {
+    List<ProductEntity> entities = products.stream()
+            .map(this::toEntity)
+            .toList();
+
+    return jpa.saveAll(entities).stream()
+            .map(this::toDomain)
+            .toList();
+  }
+
+
 }

@@ -11,4 +11,7 @@ public interface ProductRepositoryPort {
   Optional<Product> findById(Long id);
   Product save(Product product);
   void deleteById(Long id);
+
+  List<Product> saveAll(List<Product> products);
+
 }
