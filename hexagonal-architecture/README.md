@@ -63,14 +63,14 @@ hexagonal-architecture/
 ## ▶️ Lancer le projet
 
 ### En mode développement
-```bash
+
 mvn spring-boot:run
 
-En mode test
+### En mode test
 
-    mvn test
+mvn test
 
-Avec Docker (optionnel)
+### Avec Docker
 
 Un fichier docker-compose.yml permet de lancer rapidement une base de données :
 docker-compose up -d
@@ -82,7 +82,7 @@ Swagger UI → http://localhost:8080/swagger-ui/index.html
 
 OpenAPI JSON → http://localhost:8080/v3/api-docs
 
-✅ Objectifs pédagogiques
+### ✅ Objectifs pédagogiques
 
 Comprendre la différence entre architecture en couches et architecture hexagonale
 
@@ -92,7 +92,7 @@ Faciliter les tests unitaires grâce à l’isolation des ports/adapters
 
 Déployer facilement grâce à Docker et CI/CD
 
-📌 Prochaines étapes
+### 📌 Prochaines étapes
 
 Ajouter un exemple métier (ex : gestion de produits ou commandes)
 
